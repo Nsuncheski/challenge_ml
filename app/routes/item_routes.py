@@ -7,13 +7,11 @@ from app.constants import (
     ITEMS_PREFIX,
     ITEMS_TAG,
     ITEM_NOT_FOUND_MSG,
-    HTTP_404_NOT_FOUND
+    HTTP_404_NOT_FOUND,
 )
 
-router = APIRouter(
-    prefix=ITEMS_PREFIX,
-    tags=[ITEMS_TAG]
-)
+router = APIRouter(prefix=ITEMS_PREFIX, tags=[ITEMS_TAG])
+
 
 @router.get(GET_ITEM_BY_ID_PATH, response_model=ItemWithSeller)
 def get_item(item_id: str):

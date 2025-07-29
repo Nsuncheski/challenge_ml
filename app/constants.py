@@ -12,7 +12,7 @@ WRITE_MODE = "w"
 # Routes
 ITEMS_PREFIX = "/items"
 GET_ITEM_BY_ID_PATH = "/{item_id}"
-#TAg de rutas
+# TAg de rutas
 ITEMS_TAG = "Items"
 
 # Error messages

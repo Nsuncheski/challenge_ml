@@ -1,4 +1,3 @@
-# app/repositories/base_repository.py
 import json
 from pathlib import Path
 from typing import Generic, TypeVar, Type
@@ -6,6 +5,7 @@ from pydantic import BaseModel
 from app.constants import FILE_ENCODING, READ_MODE
 
 T = TypeVar("T", bound=BaseModel)
+
 
 class BaseRepository(Generic[T]):
     def __init__(self, path: str, model: Type[T]):

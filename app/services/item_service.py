@@ -29,7 +29,7 @@ class ItemService:
             name=user.name,
             email=user.email,
             reputation=seller.reputation,
-            store_name=seller.store_name
+            store_name=seller.store_name,
         )
 
         return ItemWithSeller(
@@ -37,5 +37,5 @@ class ItemService:
             title=item.title,
             description=item.description,
             price=item.price,
-            seller=seller_info
+            seller=seller_info,
         )

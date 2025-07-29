@@ -1,12 +1,13 @@
 import pytest
 
+
 @pytest.mark.asyncio
 async def test_get_item_by_id(client):
     item_id = "item1"
 
     async with client as ac:
         response = await ac.get(f"/items/{item_id}")
-    
+
     assert response.status_code == 200
     data = response.json()
 
