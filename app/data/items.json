@@ -1,8 +1,9 @@
 [
     {
-        "id": "123",
+        "id": "item1",
         "title": "Smartphone",
-        "details": "the best smartphone in the world, indestructible and faster than a rocket.",
+        "description": "the best smartphone in the world, indestructible and faster than a rocket.",
+        "price": 1000.00,
         "seller_id": "user1"
     }
 ]

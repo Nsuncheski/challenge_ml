@@ -1,1 +1,68 @@
-.venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy, pylint, pytype, and other type checker or linter outputs
+.mypy_cache/
+.dmypy.json
+.pytype/
+pylint-report.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Mac / Windows / Linux system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dotenv
+.env
+.env.*
+
+# SQLite and other databases
+*.sqlite3
+*.db
+
+# Local settings
+local_settings.py
